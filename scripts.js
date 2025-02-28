@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const tokenInput = document.getElementById('tokenInput');
 
     infoButton.addEventListener('click', () => {
-        alert('这是一小段字。');
+        alert('wangluofanzuo@outlook.com');
     });
 
     licenseButton.addEventListener('click', () => {
