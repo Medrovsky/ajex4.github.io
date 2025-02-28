@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>示例网页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <div class="container">
+        <p>仅用于<strong>个人反信息泄露</strong>，请勿用于<del>开盒</del>侵犯他人隐私。<br>
+        一切个人不当行为造成后果，作者<strong>均不担责</strong>。<br>
+        目前由于服务器负荷太大，已把部分信息隐藏。<br>
+        <strong>大致原理</strong>：将有关人员的<u>关键词分行写入txt文件</u>，发送给服务器代收邮箱。
+        并等待反馈。<br>
+        点击下方按钮，获取发送关键词途径（邮箱地址）与token_code(将其填入发送邮件的“主题”中，让服务器接受。否则，服务器将会视其为<strong>SPAM</strong><br></p>
+        
+        <h5>事例：</h5>
+        
+        <pre><code>
+        王晓行
+        上海浦东
+        米忽悠公司员工
+        </code><pre>
+        像这样，打包成txt。
+        <button id="infoButton">获取途径</button>
+        <br><br>
+        <button id="licenseButton">获取许可码token_code</button>
+        <div id="statusMessage"></div>
+        <input type="text" id="tokenInput" disabled>
+    </div>
+</body>
+</html>
